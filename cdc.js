@@ -158,7 +158,7 @@ import {
       // console.log(data);
     }) */
 
-    let resultTable = await fetch("script.php", {
+    let resultTable = await fetch("api/index.php", {
       "method": "POST",
       "headers": {
           "Content-Type": "application/json; charset=utf-8"
